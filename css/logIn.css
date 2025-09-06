@@ -1,0 +1,46 @@
+.logIn {
+    height: 100vh;
+    
+    margin: 25px auto;
+    display: block;
+    width: 69%;
+    padding: 0px 71px 67px 164px;
+	background: #3B3B98;
+}
+
+.logIn{
+    display: flex;
+	flex-direction:column;
+    align-items: center;
+	justify-content: center;
+}
+
+body {
+	background: #bbaa8b;
+}
+
+.form {
+	display:flex;
+	display:block;
+	width:100%
+	
+}
+form {
+	display: flex;
+	align-content:center;
+	flex-direction:column;
+}
+input {
+	display:block;
+	width:100%;
+}
+
+.form>form input:focus{
+	    border-radius: 3px #1B9CFC;
+		/* background:#1B9CFC; */
+		border: 1px solid #1B9CFC;
+}
+
+form::placeholder {
+	color : #fff;
+} 
